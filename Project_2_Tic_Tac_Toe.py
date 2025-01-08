@@ -103,7 +103,7 @@ for letter in range(9):
         sign_Dictionary[index] = "O"
         print_Board()
         if check_winner("O"):
-            print(f"Congratulations {player_B} WON!!!")
-            sys.exit("Thank you for playing...")
+            print(FORE.YELLOW + f"Congratulations {player_B} WON!!!")
+            sys.exit(FORE.WHITE + "Thank you for playing...")
 
-print("This is a TIE; Nobody Won... Play Again")
+print(FORE.RED + "This is a TIE; Nobody Won... Play Again")
