@@ -1,6 +1,4 @@
-
 import sys
-import pygame
 from colorama import Fore
 
 
